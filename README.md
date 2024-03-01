@@ -8,7 +8,14 @@ Hi! 👋
 
 This Chrome browser extension example demonstrates simple message passing between two contexts: the **popup** context and the **service worker** context.
 
-**insert figure here**
+```
+*********                ***********
+*       * message------>>* service *
+* popup *                * worker  *
+*       * <<----response *         *
+*********                ***********
+sender                   receiver
+```
 
 ### References
   + [Chrome extension service workers][g_sw]
