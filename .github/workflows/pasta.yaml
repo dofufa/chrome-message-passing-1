@@ -6,7 +6,7 @@ name: pasta-zip
 on:
   push:
     paths:
-      - 'src/*'
+      - 'src/**'
     branches:
       - 'main'  
 
