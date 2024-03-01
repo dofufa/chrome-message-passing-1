@@ -1,4 +1,4 @@
-// sw.js
+// sw.js (service worker)
 // job	: Receives message from popup context
 // lic 	: https://opensource.org/license/mit
 // repo : https://github.com/dofufa/chrome-message-passing-1
