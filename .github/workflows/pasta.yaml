@@ -24,9 +24,7 @@ jobs:
           
         - name: convert pdfs to png images
           run: |
-            
-            ls            
-            tree .
+            tree
             
             rm -rf dist
             mkdir -p dist
@@ -36,8 +34,8 @@ jobs:
             zip pasta.zip -r src -x *.git* -x .DS_Store > pasta.log
             cat pasta.log            
 
-            tree
-
+            mv pasta.zip dist
+            
         - name: show a tree
           run: |
             pwd
