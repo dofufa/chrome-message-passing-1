@@ -9,7 +9,6 @@ on:
       - 'src/**'
     branches:
       - 'main'
-      - 'releases/**'
 
 jobs:
   build:
