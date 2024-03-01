@@ -47,7 +47,7 @@ jobs:
             git config user.name "GitHub Actions Bot"
             git config user.email "<>"
             
-        - name: commit
+        - name: commitifnew
           run: |
             pwd
             git add .
