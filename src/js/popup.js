@@ -1,4 +1,4 @@
-// popup.js
+// popup.js (action popup)
 // job  : Sends message to service worker, gets response
 // lic  : https://opensource.org/license/mit
 // repo : https://github.com/dofufa/chrome-message-passing-1
