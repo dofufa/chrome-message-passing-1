@@ -1,6 +1,6 @@
 {
   "name": "Message Passing Exemple 1",
-  "version": "0.1.0",
+  "version": "0.1",
   "description": "Message passing between service worker (as receiver) and popup (as sender) in MV3",
 
  "action": {
